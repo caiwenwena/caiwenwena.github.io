@@ -1,7 +1,7 @@
 (function(d){var h=[];d.loadImages=function(a,e){"string"==typeof a&&(a=[a]);for(var f=a.length,g=0,b=0;b<f;b++){var c=document.createElement("img");c.onload=function(){g++;g==f&&d.isFunction(e)&&e()};c.src=a[b];h.push(c)}}})(window.jQuery);
 $.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof attr !== typeof undefined && attr !== false; };
 
-var lwi=-1;function thresholdPassed(){var w=$(window).width();var p=false;var cw=0;if(w>=480){cw++;}if(w>=960){cw++;}if(lwi!=cw){p=true;}lwi=cw;return p;}
+var lwi=-1;function thresholdPassed(){var w=$(window).width();var p=false;var cw=0;if(w>=960){cw++;}if(lwi!=cw){p=true;}lwi=cw;return p;}
 
 $(document).ready(function() {
 r=function(){if(thresholdPassed()){dpi=window.devicePixelRatio;if($(window).width()>=960){$('.js').attr('src', (dpi>1) ? 'images/group-4-142.png' : 'images/group-4-71.png');
@@ -26,29 +26,7 @@ $('.js-18').attr('src', (dpi>1) ? 'images/group-26-454.jpg' : 'images/group-26-2
 $('.js-19').attr('src', (dpi>1) ? 'images/group-24-556.png' : 'images/group-24-278-1.png');
 $('.js-20').attr('src', (dpi>1) ? 'images/group-28-986.png' : 'images/group-28-493.png');
 $('.js-21').attr('src', (dpi>1) ? 'images/group-30-56.png' : 'images/group-30-28-1.png');
-$('.js-22').attr('src', (dpi>1) ? 'images/group-29-56.png' : 'images/group-29-28-1.png');}else if($(window).width()>=480){$('.js').attr('src', (dpi>1) ? 'images/group-4-72.png' : 'images/group-4-36.png');
-$('.js-2').attr('src', (dpi>1) ? 'images/group-3-132.png' : 'images/group-3-66.png');
-$('.js-3').attr('src', (dpi>1) ? 'images/group-10-480.png' : 'images/group-10-240.png');
-var a='data-src'; if($('.js-4 .slide0').hasAttr('src')) { a='src'; } $('.js-4 .slide0').attr(a, (dpi>1) ? 'images/beautiful-beauty-face-573301-516.jpg' : 'images/beautiful-beauty-face-573301-258.jpg');
-var a='data-src'; if($('.js-4 .slide1').hasAttr('src')) { a='src'; } $('.js-4 .slide1').attr(a, (dpi>1) ? 'images/beautiful-blond-blonde-1071162-516.jpg' : 'images/beautiful-blond-blonde-1071162-258.jpg');
-$('.js-5').attr('src', (dpi>1) ? 'images/group-11-26.png' : 'images/group-11-13.png');
-$('.js-6').attr('src', (dpi>1) ? 'images/group-12-30.png' : 'images/group-12-15.png');
-$('.js-7').attr('src', (dpi>1) ? 'images/group-13-304-1.png' : 'images/group-13-152-1.png');
-$('.js-8').attr('src', (dpi>1) ? 'images/group-15-154.png' : 'images/group-15-77.png');
-$('.js-9').attr('src', (dpi>1) ? 'images/group-18-216-2.png' : 'images/group-18-108-1.png');
-$('.js-10').attr('src', (dpi>1) ? 'images/group-17-188.png' : 'images/group-17-94.png');
-$('.js-11').attr('src', (dpi>1) ? 'images/group-19-216.png' : 'images/group-19-108.png');
-$('.js-12').attr('src', (dpi>1) ? 'images/group-16-474.png' : 'images/group-16-237.png');
-$('.js-13').attr('src', (dpi>1) ? 'images/group-32-820.png' : 'images/group-32-410.png');
-$('.js-14').attr('src', (dpi>1) ? 'images/group-22-80.png' : 'images/group-22-40.png');
-$('.js-15').attr('src', (dpi>1) ? 'images/group-20-156.png' : 'images/group-20-78.png');
-$('.js-16').attr('src', (dpi>1) ? 'images/group-25-208.jpg' : 'images/group-25-104.jpg');
-$('.js-17').attr('src', (dpi>1) ? 'images/group-21-524.png' : 'images/group-21-262.png');
-$('.js-18').attr('src', (dpi>1) ? 'images/group-26-226.jpg' : 'images/group-26-113.jpg');
-$('.js-19').attr('src', (dpi>1) ? 'images/group-24-280.png' : 'images/group-24-140.png');
-$('.js-20').attr('src', (dpi>1) ? 'images/group-28-486.png' : 'images/group-28-243.png');
-$('.js-21').attr('src', (dpi>1) ? 'images/group-30-28-2.png' : 'images/group-30-14-1.png');
-$('.js-22').attr('src', (dpi>1) ? 'images/group-29-30.png' : 'images/group-29-15.png');}else{$('.js').attr('src', (dpi>1) ? 'images/group-4-48.png' : 'images/group-4-24.png');
+$('.js-22').attr('src', (dpi>1) ? 'images/group-29-56.png' : 'images/group-29-28-1.png');}else{$('.js').attr('src', (dpi>1) ? 'images/group-4-48.png' : 'images/group-4-24.png');
 $('.js-2').attr('src', (dpi>1) ? 'images/group-3-88.png' : 'images/group-3-44.png');
 $('.js-3').attr('src', (dpi>1) ? 'images/group-10-320.png' : 'images/group-10-160.png');
 var a='data-src'; if($('.js-4 .slide0').hasAttr('src')) { a='src'; } $('.js-4 .slide0').attr(a, (dpi>1) ? 'images/beautiful-beauty-face-573301-344.jpg' : 'images/beautiful-beauty-face-573301-172.jpg');
