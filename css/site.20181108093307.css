@@ -60,6 +60,7 @@ html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .pos{position:relative;margin-top:5px;}
 .size{width:100%;min-width:960px;min-height:697px;}
 .cont{z-index:1;pointer-events:none;border:0;background-image:url(../images/group-9-480.png);background-color:rgb(64,64,64);background-repeat:no-repeat;background-position:50% 50%;background-size:contain;background-clip:padding-box;}
+.webp .cont{background-image:url(../images/group-9-480.webp);}
 .pos-2{position:relative;margin-top:17px;}
 .vis-2{display:block;vertical-align:top;}
 .section{min-width:960px;width:960px;margin-left:auto;margin-right:auto;}
@@ -243,6 +244,7 @@ html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .pos-36{position:relative;margin-top:-144px;}
 .size-45{width:100%;min-width:960px;min-height:234px;}
 .cont-39{z-index:36;pointer-events:none;border:0;background-image:url(../images/group-27-478.png);background-color:rgb(205,222,232);background-repeat:no-repeat;background-position:50% 0;background-size:contain;background-clip:padding-box;}
+.webp .cont-39{background-image:url(../images/group-27-478.webp);}
 .pos-37{position:relative;margin-top:47px;}
 .pos-38{position:relative;margin-left:81px;margin-top:0;}
 .size-46{min-width:493px;width:493px;min-height:130px;height:130px;}
@@ -395,71 +397,115 @@ html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 }
 @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
 .cont{background-image:url(../images/group-9-960.png);}
+.webp .cont{background-image:url(../images/group-9-960.webp);}
 .cont-39{background-image:url(../images/group-27-956.png);}
+.webp .cont-39{background-image:url(../images/group-27-956.webp);}
 }
 @media (max-width:959px) and (-webkit-min-device-pixel-ratio:2), (max-width:959px) and (min-resolution:192dpi) {
 .cont{background-image:url(../images/group-9-960.png);}
+.webp .cont{background-image:url(../images/group-9-960.webp);}
 .cont-39{background-image:url(../images/group-27-956.png);}
+.webp .cont-39{background-image:url(../images/group-27-956.webp);}
 }
 @media (min-width:480px) {
 .cont{background-image:url(../images/group-9-524.png);}
+.webp .cont{background-image:url(../images/group-9-524.webp);}
 .cont-39{background-image:url(../images/group-27-478.png);}
+.webp .cont-39{background-image:url(../images/group-27-478.webp);}
 .cont{background-image:url(../images/group-9-524.png);}
+.webp .cont{background-image:url(../images/group-9-524.webp);}
 .cont-39{background-image:url(../images/group-27-478.png);}
+.webp .cont-39{background-image:url(../images/group-27-478.webp);}
 }
 @media (min-width:480px) and (-webkit-min-device-pixel-ratio:2),(min-width:480px) and (min-resolution:192dpi) {
 .cont{background-image:url(../images/group-9-1048.png);}
+.webp .cont{background-image:url(../images/group-9-1048.webp);}
 .cont-39{background-image:url(../images/group-27-956.png);}
+.webp .cont-39{background-image:url(../images/group-27-956.webp);}
 .cont{background-image:url(../images/group-9-1048.png);}
+.webp .cont{background-image:url(../images/group-9-1048.webp);}
 .cont-39{background-image:url(../images/group-27-956.png);}
+.webp .cont-39{background-image:url(../images/group-27-956.webp);}
 }
 @media (min-width:768px) {
-.cont{background-image:url(../images/group-9-960-1.png);}
+.cont{background-image:url(../images/group-9-960-2.png);}
+.webp .cont{background-image:url(../images/group-9-960-1.webp);}
 .cont-39{background-image:url(../images/group-27-960.png);}
+.webp .cont-39{background-image:url(../images/group-27-960.webp);}
 .cont{background-image:url(../images/group-9-960-1.png);}
+.webp .cont{background-image:url(../images/group-9-960-1.webp);}
 .cont-39{background-image:url(../images/group-27-960.png);}
+.webp .cont-39{background-image:url(../images/group-27-960.webp);}
 }
 @media (min-width:768px) and (-webkit-min-device-pixel-ratio:2),(min-width:768px) and (min-resolution:192dpi) {
 .cont{background-image:url(../images/group-9-1920.png);}
+.webp .cont{background-image:url(../images/group-9-1920.webp);}
 .cont-39{background-image:url(../images/group-27-1920.png);}
+.webp .cont-39{background-image:url(../images/group-27-1920.webp);}
 .cont{background-image:url(../images/group-9-1920.png);}
+.webp .cont{background-image:url(../images/group-9-1920.webp);}
 .cont-39{background-image:url(../images/group-27-1920.png);}
+.webp .cont-39{background-image:url(../images/group-27-1920.webp);}
 }
 @media (min-width:960px) {
-.cont{background-image:url(../images/group-9-1048-1.png);}
+.cont{background-image:url(../images/group-9-1048-6.png);}
+.webp .cont{background-image:url(../images/group-9-1048-1.webp);}
 .cont-39{background-image:url(../images/group-27-963.png);}
+.webp .cont-39{background-image:url(../images/group-27-963.webp);}
 .cont{background-image:url(../images/group-9-1048-1.png);}
+.webp .cont{background-image:url(../images/group-9-1048-1.webp);}
 .cont-39{background-image:url(../images/group-27-963.png);}
+.webp .cont-39{background-image:url(../images/group-27-963.webp);}
 }
 @media (min-width:960px) and (-webkit-min-device-pixel-ratio:2),(min-width:960px) and (min-resolution:192dpi) {
 .cont{background-image:url(../images/group-9-2096.png);}
+.webp .cont{background-image:url(../images/group-9-2096.webp);}
 .cont-39{background-image:url(../images/group-27-1926.png);}
+.webp .cont-39{background-image:url(../images/group-27-1926.webp);}
 .cont{background-image:url(../images/group-9-2096.png);}
+.webp .cont{background-image:url(../images/group-9-2096.webp);}
 .cont-39{background-image:url(../images/group-27-1926.png);}
+.webp .cont-39{background-image:url(../images/group-27-1926.webp);}
 }
 @media (min-width:1200px) {
+.cont{background-image:url(../images/group-9-1048-7.png);}
+.webp .cont{background-image:url(../images/group-9-1048-1.webp);}
+.cont-39{background-image:url(../images/group-27-963-2.png);}
+.webp .cont-39{background-image:url(../images/group-27-963.webp);}
 .cont{background-image:url(../images/group-9-1048-1.png);}
+.webp .cont{background-image:url(../images/group-9-1048-1.webp);}
 .cont-39{background-image:url(../images/group-27-963.png);}
-.cont{background-image:url(../images/group-9-1048-1.png);}
-.cont-39{background-image:url(../images/group-27-963.png);}
+.webp .cont-39{background-image:url(../images/group-27-963.webp);}
 }
 @media (min-width:1200px) and (-webkit-min-device-pixel-ratio:2),(min-width:1200px) and (min-resolution:192dpi) {
+.cont{background-image:url(../images/group-9-2096-2.png);}
+.webp .cont{background-image:url(../images/group-9-2096.webp);}
+.cont-39{background-image:url(../images/group-27-1926-2.png);}
+.webp .cont-39{background-image:url(../images/group-27-1926.webp);}
 .cont{background-image:url(../images/group-9-2096.png);}
+.webp .cont{background-image:url(../images/group-9-2096.webp);}
 .cont-39{background-image:url(../images/group-27-1926.png);}
-.cont{background-image:url(../images/group-9-2096.png);}
-.cont-39{background-image:url(../images/group-27-1926.png);}
+.webp .cont-39{background-image:url(../images/group-27-1926.webp);}
 }
 @media (min-width:1600px) {
+.cont{background-image:url(../images/group-9-1048-8.png);}
+.webp .cont{background-image:url(../images/group-9-1048-1.webp);}
+.cont-39{background-image:url(../images/group-27-963-3.png);}
+.webp .cont-39{background-image:url(../images/group-27-963.webp);}
 .cont{background-image:url(../images/group-9-1048-1.png);}
+.webp .cont{background-image:url(../images/group-9-1048-1.webp);}
 .cont-39{background-image:url(../images/group-27-963.png);}
-.cont{background-image:url(../images/group-9-1048-1.png);}
-.cont-39{background-image:url(../images/group-27-963.png);}
+.webp .cont-39{background-image:url(../images/group-27-963.webp);}
 }
 @media (min-width:1600px) and (-webkit-min-device-pixel-ratio:2),(min-width:1600px) and (min-resolution:192dpi) {
+.cont{background-image:url(../images/group-9-2096-3.png);}
+.webp .cont{background-image:url(../images/group-9-2096.webp);}
+.cont-39{background-image:url(../images/group-27-1926-3.png);}
+.webp .cont-39{background-image:url(../images/group-27-1926.webp);}
 .cont{background-image:url(../images/group-9-2096.png);}
+.webp .cont{background-image:url(../images/group-9-2096.webp);}
 .cont-39{background-image:url(../images/group-27-1926.png);}
-.cont{background-image:url(../images/group-9-2096.png);}
-.cont-39{background-image:url(../images/group-27-1926.png);}
+.webp .cont-39{background-image:url(../images/group-27-1926.webp);}
 }
 #body-2{min-width:960px;width:960px;margin-left:auto;margin-right:auto;background-color:rgb(255,255,255);}
 @media (max-width:959px) {
