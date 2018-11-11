@@ -1,0 +1,61 @@
+(function(d){var h=[];d.loadImages=function(a,e){"string"==typeof a&&(a=[a]);for(var f=a.length,g=0,b=0;b<f;b++){var c=document.createElement("img");c.onload=function(){g++;g==f&&d.isFunction(e)&&e()};c.src=a[b];h.push(c)}}})(window.jQuery);
+$.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof attr !== typeof undefined && attr !== false; };
+
+var lwi=-1;function thresholdPassed(){var w=$(window).width();var p=false;var cw=0;if(w>=960){cw++;}if(lwi!=cw){p=true;}lwi=cw;return p;}
+
+$(document).ready(function() {
+r=function(){if(thresholdPassed()){dpi=window.devicePixelRatio;if($(window).width()>=960){$('.js').attr('src', (dpi>1) ? 'images/group-31-4-1.png' : 'images/group-31-2-1.png');
+$('.js-2').attr('src', (dpi>1) ? 'images/group-31-4-1.png' : 'images/group-31-2-1.png');
+$('.js-3').attr('src', (dpi>1) ? 'images/group-31-4-1.png' : 'images/group-31-2-1.png');
+$('.js-4').attr('src', (dpi>1) ? 'images/group-4-142.png' : 'images/group-4-71.png');
+$('.js-5').attr('src', (dpi>1) ? 'images/group-3-262.png' : 'images/group-3-131.png');
+$('.js-6').attr('src', (dpi>1) ? 'images/group-10-958.png' : 'images/group-10-479.png');
+var a='data-src'; if($('.js-7 .slide0').hasAttr('src')) { a='src'; } $('.js-7 .slide0').attr(a, (dpi>1) ? 'images/beautiful-beauty-face-573301-1032-1.jpg' : 'images/beautiful-beauty-face-573301-516-2.jpg');
+var a='data-src'; if($('.js-7 .slide1').hasAttr('src')) { a='src'; } $('.js-7 .slide1').attr(a, (dpi>1) ? 'images/beautiful-blond-blonde-1071162-1032-1.jpg' : 'images/beautiful-blond-blonde-1071162-516-2.jpg');
+$('.js-8').attr('src', (dpi>1) ? 'images/group-11-58.png' : 'images/group-11-29.png');
+$('.js-9').attr('src', (dpi>1) ? 'images/group-12-58.png' : 'images/group-12-29.png');
+$('.js-10').attr('src', (dpi>1) ? 'images/group-13-606.png' : 'images/group-13-303.png');
+$('.js-11').attr('src', (dpi>1) ? 'images/group-15-308.png' : 'images/group-15-154-1.png');
+$('.js-12').attr('src', (dpi>1) ? 'images/group-18-432-1.png' : 'images/group-18-216.png');
+$('.js-13').attr('src', (dpi>1) ? 'images/group-17-378.png' : 'images/group-17-189.png');
+$('.js-14').attr('src', (dpi>1) ? 'images/group-19-368-1.png' : 'images/group-19-184-1.png');
+$('.js-15').attr('src', (dpi>1) ? 'images/group-16-954-1.png' : 'images/group-16-477-1.png');
+$('.js-16').attr('src', (dpi>1) ? 'images/group-32-1638.png' : 'images/group-32-819.png');
+$('.js-17').attr('src', (dpi>1) ? 'images/group-22-202.png' : 'images/group-22-101.png');
+$('.js-18').attr('src', (dpi>1) ? 'images/group-20-310.png' : 'images/group-20-155.png');
+$('.js-19').attr('src', (dpi>1) ? 'images/group-24-282.png' : 'images/group-24-141.png');
+$('.js-20').attr('src', (dpi>1) ? 'images/group-25-414-1.jpg' : 'images/group-25-207-1.jpg');
+$('.js-21').attr('src', (dpi>1) ? 'images/group-21-1052.png' : 'images/group-21-526.png');
+$('.js-22').attr('src', (dpi>1) ? 'images/group-26-454-1.jpg' : 'images/group-26-227-1.jpg');
+$('.js-23').attr('src', (dpi>1) ? 'images/group-28-986.png' : 'images/group-28-493.png');
+$('.js-24').attr('src', (dpi>1) ? 'images/group-30-56.png' : 'images/group-30-28-1.png');
+$('.js-25').attr('src', (dpi>1) ? 'images/group-29-56.png' : 'images/group-29-28-1.png');}else{$('.js').attr('src', (dpi>1) ? 'images/group-31-4.png' : 'images/group-31-2.png');
+$('.js-2').attr('src', (dpi>1) ? 'images/group-31-4.png' : 'images/group-31-2.png');
+$('.js-3').attr('src', (dpi>1) ? 'images/group-31-4.png' : 'images/group-31-2.png');
+$('.js-4').attr('src', (dpi>1) ? 'images/group-4-48.png' : 'images/group-4-24.png');
+$('.js-5').attr('src', (dpi>1) ? 'images/group-3-88.png' : 'images/group-3-44.png');
+$('.js-6').attr('src', (dpi>1) ? 'images/group-10-320.png' : 'images/group-10-160.png');
+var a='data-src'; if($('.js-7 .slide0').hasAttr('src')) { a='src'; } $('.js-7 .slide0').attr(a, (dpi>1) ? 'images/beautiful-beauty-face-573301-344-1.jpg' : 'images/beautiful-beauty-face-573301-172-1.jpg');
+var a='data-src'; if($('.js-7 .slide1').hasAttr('src')) { a='src'; } $('.js-7 .slide1').attr(a, (dpi>1) ? 'images/beautiful-blond-blonde-1071162-344-1.jpg' : 'images/beautiful-blond-blonde-1071162-172-1.jpg');
+$('.js-8').attr('src', (dpi>1) ? 'images/group-11-18.png' : 'images/group-11-9.png');
+$('.js-9').attr('src', (dpi>1) ? 'images/group-12-20.png' : 'images/group-12-10.png');
+$('.js-10').attr('src', (dpi>1) ? 'images/group-13-202.png' : 'images/group-13-101.png');
+$('.js-11').attr('src', (dpi>1) ? 'images/group-15-102.png' : 'images/group-15-51.png');
+$('.js-12').attr('src', (dpi>1) ? 'images/group-18-144-1.png' : 'images/group-18-72-1.png');
+$('.js-13').attr('src', (dpi>1) ? 'images/group-17-126-1.png' : 'images/group-17-63-1.png');
+$('.js-14').attr('src', (dpi>1) ? 'images/group-19-144.png' : 'images/group-19-72.png');
+$('.js-15').attr('src', (dpi>1) ? 'images/group-16-316-1.png' : 'images/group-16-158-1.png');
+$('.js-16').attr('src', (dpi>1) ? 'images/group-32-546.png' : 'images/group-32-273.png');
+$('.js-17').attr('src', (dpi>1) ? 'images/group-22-88.png' : 'images/group-22-44.png');
+$('.js-18').attr('src', (dpi>1) ? 'images/group-20-104.png' : 'images/group-20-52.png');
+$('.js-19').attr('src', (dpi>1) ? 'images/group-24-96.png' : 'images/group-24-48.png');
+$('.js-20').attr('src', (dpi>1) ? 'images/group-25-138-1.jpg' : 'images/group-25-69-1.jpg');
+$('.js-21').attr('src', (dpi>1) ? 'images/group-21-350.png' : 'images/group-21-175.png');
+$('.js-22').attr('src', (dpi>1) ? 'images/group-26-150-1.jpg' : 'images/group-26-75-1.jpg');
+$('.js-23').attr('src', (dpi>1) ? 'images/group-28-328.png' : 'images/group-28-164.png');
+$('.js-24').attr('src', (dpi>1) ? 'images/group-30-22.png' : 'images/group-30-11.png');
+$('.js-25').attr('src', (dpi>1) ? 'images/group-29-22.png' : 'images/group-29-11.png');}}};
+if(!window.HTMLPictureElement){$(window).resize(r);r();}
+(function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(){$(this).click(function(){var t=this.hash.length>1?$('[name="'+this.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
+$('.js-7 .slider').slick({lazyLoad: 'ondemand',slidesToShow: 1,slidesToScroll: 1,speed: 300,dots: false,arrows: false,infinite: true});
+});
