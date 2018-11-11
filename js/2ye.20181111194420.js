@@ -32,8 +32,8 @@ $('.js-75').attr('src', (dpi>1) ? 'images/wechatimg180-300.jpeg' : 'images/wecha
 $('.js-76').attr('src', (dpi>1) ? 'images/wechatimg177-300.jpeg' : 'images/wechatimg177-150.jpeg');
 $('.js-77').attr('src', (dpi>1) ? 'images/wechatimg181-300.jpeg' : 'images/wechatimg181-150.jpeg');
 $('.js-78').attr('src', (dpi>1) ? 'images/group-52-1618.png' : 'images/group-52-809.png');
-$('.js-79').attr('src', (dpi>1) ? 'images/group-52-1618.png' : 'images/group-52-809.png');
-$('.js-80').attr('src', (dpi>1) ? 'images/group-6-96.png' : 'images/group-6-48.png');
+$('.js-79').attr('src', (dpi>1) ? 'images/group-6-96.png' : 'images/group-6-48.png');
+$('.js-80').attr('src', (dpi>1) ? 'images/group-52-1618.png' : 'images/group-52-809.png');
 $('.js-81').attr('src', (dpi>1) ? 'images/group-28-980.png' : 'images/group-28-490.png');
 $('.js-82').attr('src', (dpi>1) ? 'images/group-29-72.png' : 'images/group-29-36.png');
 $('.js-83').attr('src', (dpi>1) ? 'images/group-30-74.png' : 'images/group-30-37.png');}else{$('.js-51').attr('src', (dpi>1) ? 'images/he-ping-122.png' : 'images/he-ping-61.png');
@@ -64,8 +64,8 @@ $('.js-75').attr('src', (dpi>1) ? 'images/wechatimg180-90.jpeg' : 'images/wechat
 $('.js-76').attr('src', (dpi>1) ? 'images/wechatimg177-90.jpeg' : 'images/wechatimg177-45.jpeg');
 $('.js-77').attr('src', (dpi>1) ? 'images/wechatimg181-90.jpeg' : 'images/wechatimg181-45.jpeg');
 $('.js-78').attr('src', (dpi>1) ? 'images/group-52-526.png' : 'images/group-52-263.png');
-$('.js-79').attr('src', (dpi>1) ? 'images/group-52-526.png' : 'images/group-52-263.png');
-$('.js-80').attr('src', (dpi>1) ? 'images/group-6-32.png' : 'images/group-6-16.png');
+$('.js-79').attr('src', (dpi>1) ? 'images/group-6-32.png' : 'images/group-6-16.png');
+$('.js-80').attr('src', (dpi>1) ? 'images/group-52-526.png' : 'images/group-52-263.png');
 $('.js-81').attr('src', (dpi>1) ? 'images/group-28-352.png' : 'images/group-28-176.png');
 $('.js-82').attr('src', (dpi>1) ? 'images/group-29-24.png' : 'images/group-29-12.png');
 $('.js-83').attr('src', (dpi>1) ? 'images/group-30-24.png' : 'images/group-30-12.png');}}};

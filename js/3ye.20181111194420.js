@@ -23,7 +23,7 @@ $('.js-141').attr('src', (dpi>1) ? 'images/group-4-268.png' : 'images/group-4-13
 $('.js-142').attr('src', (dpi>1) ? 'images/group-4-266.png' : 'images/group-4-133.png');
 $('.js-143').attr('src', (dpi>1) ? 'images/group-2-118.png' : 'images/group-2-59.png');
 $('.js-144').attr('src', (dpi>1) ? 'images/group-3-142.png' : 'images/group-3-71.png');
-$('.js-145').attr('src', (dpi>1) ? 'images/group-5-copy-2-634.png' : 'images/group-5-copy-2-317.png');
+$('.js-145').attr('src', (dpi>1) ? 'images/group-5-copy-2-640.png' : 'images/group-5-copy-2-320.png');
 $('.js-146').attr('src', (dpi>1) ? 'images/group-28-358.png' : 'images/group-28-179.png');
 $('.js-147').attr('src', (dpi>1) ? 'images/group-29-24-1.png' : 'images/group-29-12-1.png');
 $('.js-148').attr('src', (dpi>1) ? 'images/group-30-24-1.png' : 'images/group-30-12-1.png');}}};
